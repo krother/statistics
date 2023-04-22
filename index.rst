@@ -8,10 +8,15 @@ Introduction to Statistics
 
 .. figure:: title.png
 
+This is a collection of terms and definitions from Kristians statistics course.
+
+Contents
+--------
+
 .. toctree::
    :maxdepth: 1
-   :caption: Inhalt:
 
+   variables.rst
    centrality_and_dispersion.rst
    links.rst
 
@@ -19,6 +24,7 @@ Introduction to Statistics
 
    **License:**
 
-   Usable under the conditions of the Creative Commons Attribution Share-alike License 4.0
+   Usable under the conditions of the Creative Commons Attribution Share-alike License 4.0 (CC-BY-SA 4.0).
+   See `creativecommons.org <https://creativecommons.org/licenses/by-sa/4.0/>`__ for details
 
-   Created by Dr. Kristian Rother (2023)
+   Kristian Rother, Malte Bonart and Stefan Roth contributed to the content.

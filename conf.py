@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'python_automatisierung'
+project = 'statistics'
 copyright = '2023, Kristian Rother'
 author = 'Kristian Rother'
 release = '0.1'
