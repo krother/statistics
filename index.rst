@@ -18,6 +18,7 @@ Contents
 
    variables.rst
    centrality_and_dispersion.rst
+   frequency.rst
    links.rst
 
 .. note::
