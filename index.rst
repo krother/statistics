@@ -22,9 +22,7 @@ Contents
    probability.rst
    links.rst
 
-.. note::
-
-   **License:**
+.. topic:: License
 
    Usable under the conditions of the Creative Commons Attribution Share-alike License 4.0 (CC-BY-SA 4.0).
    See `creativecommons.org <https://creativecommons.org/licenses/by-sa/4.0/>`__ for details

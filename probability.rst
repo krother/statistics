@@ -56,7 +56,7 @@ This is called the **total probability**:
 
 .. math::
 
-   p(A) = \sum p(A|B_j) * p(B_j)
+   p(A) = \sum p(A|B_j) \cdot p(B_j)
 
 ----
 
@@ -67,7 +67,7 @@ If two events are consecutive and you want the probability of a combination, you
 
 .. math::
 
-   p(A \cap B) = p(A|B) * p(B)
+   p(A \cap B) = p(A|B) \cdot p(B)
 
 The :math:`\cap` symbol denotes the *intersection* of both outcomes.
 
@@ -80,7 +80,9 @@ With **Bayes Theorem**, you can reverse the order of a conditional probability:
 
 .. math::
 
-   p(A|B) = p(B|A) * p(A) / p(B)
+   p(A|B) = \frac{p(B|A) \cdot p(A)}{p(B)}
+
+Here, :math:`p(A)` is the **prior probability** (if we had no additional information about A).
 
 ----
 
