@@ -20,6 +20,7 @@ Contents
    centrality_and_dispersion.rst
    frequency.rst
    probability.rst
+   distributions.rst
    links.rst
 
 .. topic:: License
