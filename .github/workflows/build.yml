@@ -51,3 +51,13 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@main
+
+      - name: copy to academis server 
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.ACADEMIS_HOST }}
+          username: ${{ secrets.ACADEMIS_USERNAME }}
+          port: 22
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          source: "build/html"
+          target: "/www/academis/statistics"
