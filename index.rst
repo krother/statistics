@@ -21,6 +21,7 @@ Contents
    frequency.rst
    probability.rst
    distributions.rst
+   combinatorics.rst
    links.rst
 
 .. topic:: License
