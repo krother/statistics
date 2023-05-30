@@ -22,6 +22,7 @@ Contents
    probability.rst
    distributions.rst
    combinatorics.rst
+   data_report.rst
    links.rst
 
 .. topic:: License
