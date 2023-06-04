@@ -22,6 +22,8 @@ Contents
    probability.rst
    distributions.rst
    combinatorics.rst
+   linear_regression.rst
+   correlation.rst
    data_report.rst
    links.rst
 
