@@ -27,6 +27,21 @@ Contents
    data_report.rst
    links.rst
 
+Exercises
+---------
+
+.. toctree::
+   :maxdepth: 1
+
+   exercises/centrality_and_dispersion.rst
+   exercises/frequency.rst
+   exercises/probability.rst
+   exercises/distributions.rst
+   exercises/using_distributions.rst
+   exercises/linear.rst
+   exercises/confidence.rst
+
+
 .. topic:: License
 
    Usable under the conditions of the Creative Commons Attribution Share-alike License 4.0 (CC-BY-SA 4.0).
