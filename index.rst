@@ -40,6 +40,7 @@ Exercises
    exercises/using_distributions.rst
    exercises/linear.rst
    exercises/confidence.rst
+   exercises/time_series.rst
 
 
 .. topic:: License
