@@ -21,6 +21,7 @@ Contents
    frequency.rst
    probability.rst
    distributions.rst
+   expectation_values.rst
    combinatorics.rst
    linear_regression.rst
    correlation.rst
@@ -39,6 +40,7 @@ Exercises
    exercises/distributions.rst
    exercises/using_distributions.rst
    exercises/linear.rst
+   exercises/sampling.rst
    exercises/confidence.rst
    exercises/time_series.rst
 

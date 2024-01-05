@@ -134,6 +134,11 @@ The Poisson Distribution also works for frequent events, but for :math:`\lambda 
 Normal Distribution
 -------------------
 
+.. figure:: normal.svg
+   :width: 600px
+
+   `by Ainali - Own work, CC BY-SA 3.0 <https://commons.wikimedia.org/w/index.php?curid=3141713>`__
+
 The **Normal Distribution** is by far the most frequently observed distribution.
 It is a *continuous distribution* with the probability density function:
 
@@ -143,6 +148,27 @@ It is a *continuous distribution* with the probability density function:
 
 with the mean :math:`\mu` and the standard deviation :math:`\sigma` .
 A normal distribution with :math:`\mu=0` and :math:`\sigma=1` it is called the **Standard Normal Distribution**.
+
+One pleasant property of the Normal Distribution is that it defines a clear interpretation of the standard deviation:
+
+* 68.2% of the values are within one standard deviation from the mean
+* 95.4% of the values are within two standard deviations from the mean
+* 99.7% of the values are within three standard deviations from the mean
+
+.. hint::
+
+   In a Google spreadsheet you can use the function NORM to calculate the probability that
+   the value of a normally distributed variable is **below** the given threshold.
+
+   E.g. to calculate the probability that a penguin has a **beak length of 45 mm or below**
+   when the beak lengths are normally distributed with a mean of 40 mm and a standard deviation
+   of 2.5 mm, use the formula:
+
+   ::
+
+      =NORM.DIST(45.0, 40.0, 2.5, TRUE)
+
+   The probability that the beak is longer than 45 mm is 1 minus the resulting value.
 
 ----
 
