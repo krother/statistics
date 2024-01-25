@@ -1,5 +1,5 @@
-Session 1: Measures of Centrality and Dispersion
-================================================
+Session 1: Centrality and Dispersion
+====================================
 
 Exercise 1: Data Portrait
 -------------------------
@@ -225,14 +225,3 @@ following tasks to examine the **beak length** variable:
 -  draw a box plot of the beak length
 
 How would you interpret the result?
-
---------------
-
-License
--------
-
-(c) 2023 Dr. Kristian Rother
-
-Available under the conditions of the Creative Commons Attribution
-Share-alike License 4.0 (CC-BY-SA 4.0). See creativecommons.org for
-details.
