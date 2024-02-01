@@ -2,8 +2,9 @@
 Sampling
 ========
 
-.. figure:: macke.jpeg
-   :caption: penguin eating ice cream. Style by August Macke. Created with stablediffusionweb.com
+.. image:: macke.jpeg
+
+*penguin eating ice cream. Style by August Macke. Created with stablediffusionweb.com*
 
 Exercise 1: Ice Cream
 ---------------------
@@ -12,9 +13,10 @@ In the summer, penguins like ice cream.
 Every penguin has their own individual taste. 
 Let's consider three penguins:
 
-* **Ada** likes to have one scoop of each type available. They have to be piled up in a specific order.
+* **Ada** likes to have one scoop of each type available. She refuses to eat ice cream with fewer scoops. The order of the scoops matters, so `mango-vanilla` is not the same as `vanilla-mango`.
 * **Bashir** likes to have 2, 3 or 4 scoops. The order does not matter, but every type of ice cream must occur only once.
 * **Choi** has a taste very similar to Bashir, but a type of ice cream may occur multiple times.
+* **Dob** has a taste very similar to Choi, but the order of the scoops matters.
 
 Create a table showing how many different ice cream cones one could build for each penguin.
 Consider the following cases:
@@ -35,7 +37,8 @@ How many friends should he invite to try all possible combinations?
 
 
 .. figure:: miro.jpeg
-   :caption: penguin eating ice cream. Style by Miro. Created with stablediffusionweb.com
+   
+*penguin eating ice cream. Style by Miro. Created with stablediffusionweb.com*
 
 
 Exercise 3: Ice Cream Factory

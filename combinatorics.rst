@@ -45,10 +45,10 @@ but the upper number of the binomial coefficient changes:
 
 ----
 
-Sequences
----------
+Arrangements
+------------
 
-The number of possible sequences like strings, DNA, musical notes of length *k* from an alphabet with the size *n* is given by a power function:
+The number of possible arrangement in character strings, DNA, musical notes of length *k* from an alphabet with the size *n* is given by a power function:
 
 .. math::
 

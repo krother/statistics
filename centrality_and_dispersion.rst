@@ -1,6 +1,9 @@
 
+Centrality and Dispersion
+=========================
+
 Measures of Centrality
-======================
+++++++++++++++++++++++
 
 **With metrics of centrality or central tendency, we want to calculate a single number that represents a typical value for a statistical variable.**
 
@@ -42,7 +45,7 @@ If your sample is bimodal, calculating the mean or median is often not a good id
 ----
 
 Measures of Dispersion
-======================
+++++++++++++++++++++++
 
 These group of statistics try to measure the degree of variability in the data,
 i.e. how much the data fluctuates.

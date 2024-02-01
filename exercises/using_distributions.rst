@@ -11,7 +11,8 @@ Of the 10 machine, 2.2 stop working every month, and are brought back after a sh
 What is the probability that a single machine will produce ice cream for an entire year without being maintained?
 
 .. figure:: renoir.jpeg
-   :caption: penguin eating ice cream. Style by Renoir. Created with stablediffusionweb.com
+
+*penguin eating ice cream. Style by Renoir. Created with stablediffusionweb.com*
 
 
 Exercise 2: Body Mass
@@ -39,7 +40,7 @@ A typical ice floe carries 8000g before capsizing.
 Two penguins jump on an ice floe. What is the probability that they take a bath?
 
 
-Exercise 8: Meet the Chinstraps
+Exercise 4: Meet the Chinstraps
 -------------------------------
 
 The Chinstraps have been busy eating fish in the meantime.
@@ -49,13 +50,14 @@ Pairs of one Adelie and Chinstrap penguin compare their weight.
 What is the probability that the Adelie penguin is heavier?
 
 
-Exercise 9: Big Floe
+Exercise 5: Big Floe
 --------------------
 
 The penguins found a bigger ice floe that carries up to 40kg.
 Is it safe enough to carry 10 penguins?
 
 
-.. figure:: davinci.jpeg
-   :caption: the last ice cream. Style by Da Vinci. Created with stablediffusionweb.com
+.. image:: davinci.jpeg
+
+*The last ice cream. Style by Da Vinci. Created with stablediffusionweb.com*
 
