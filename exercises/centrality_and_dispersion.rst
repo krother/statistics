@@ -34,62 +34,17 @@ Discuss in a small group:
 -  find an example of a statistical outcome (a number, a statement, a
    picture or diagram) and post it in the channel
 
-Exercise 4: Python
-------------------
+
+Exerxise 4: Plotting
+--------------------
 
 Use your local Python installation or go to
 `jupyter.org/try-jupyter/lab/ <https://jupyter.org/try-jupyter/lab/>`__
-and click the top-left symbol to start a notebook. Execute the following
-code sniplets by pressing **shift+enter** and discuss the output.
+and click the top-left symbol to start a notebook. 
+Put the spreadsheet into the same folder as your Python notebook.
+Execute the following piece of Python code:
 
-Code sniplet 4.1
-~~~~~~~~~~~~~~~~
-
-::
-
-   data = list(range(20))
-   print(data)
-
-   mean = sum(data) / len(data)
-   print(mean)
-
-Code sniplet 4.2
-~~~~~~~~~~~~~~~~
-
-::
-
-   import math
-
-   print(math.pi)
-
-Code sniplet 4.3
-~~~~~~~~~~~~~~~~
-
-::
-
-   print(0.1 + 0.2)
-
-Code sniplet 4.4
-~~~~~~~~~~~~~~~~
-
-::
-
-   import numpy as np
-
-   a = np.arange(0, 255, 10, dtype=np.uint8)
-   print(a)
-
-   print(a + 5)
-
-   print(a + 50)
-
-Exerxise 5: Plotting
---------------------
-
-Upload the spreadsheet into your Python environment. Execute the
-following piece of Python code:
-
-::
+.. code:: python3
 
    import pandas as pd
    from matplotlib import pyplot as plt
@@ -104,13 +59,13 @@ following piece of Python code:
 
 You should see a plot with several bars.
 
-Exercise 6: Centrality
+Exercise 5: Centrality
 ----------------------
 
-Now we will calculate the mean number of characters in our names. The
-following Python code contains 3 bugs. Find and fix them.
+Now calculate the mean number of characters in our names.
+The following Python code contains 3 bugs. Find and fix them.
 
-::
+.. code:: python3
 
    import pandas as pd
 
@@ -119,7 +74,7 @@ following Python code contains 3 bugs. Find and fix them.
    mean = df[chars_in_name].mean()
    print(f"average number of characters : {mean:4.2f}")
 
-Exercise 7: Median and Mode
+Exercise 6: Median and Mode
 ---------------------------
 
 Replace the ``mean()`` function by ``median()`` and ``mode()``. To print
@@ -127,12 +82,12 @@ the mode you need to leave away the ``:4.2f``.
 
 Examine the result.
 
-Exercise 8: Outliers
+Exercise 7: Outliers
 --------------------
 
 Modify one the first entry to a very high number:
 
-::
+.. code:: python3
 
    df.loc[0, "chars_in_name"] = 100
    print(df.head())
@@ -140,7 +95,7 @@ Modify one the first entry to a very high number:
 Repeat the calculation of the mean and median. How do the metrics
 change?
 
-Exercise 9: Spread
+Exercise 8: Spread
 ------------------
 
 Use the functions ``std()``, ``min()``, ``max()`` and ``describe()`` to
@@ -148,20 +103,20 @@ examine the spread of the variable.
 
 Examine the effect of adding the outlier on these numbers as well.
 
-Exercise 10: Box Plot
+Exercise 9: Box Plot
 ---------------------
 
 Draw a box plot showing the distribution of characters for different
 transportation modes.
 
-::
+.. code:: python3
 
    df["chars_in_name"].plot.box()
 
 If you have a local Python installation (with Anaconda), you can create
 a nicer plot with:
 
-::
+.. code:: python3
 
    import seaborn as sns
    import pandas as pd
@@ -169,7 +124,7 @@ a nicer plot with:
    df = pd.read_excel("students.xlsx")
    sns.boxplot(data=df, y="chars_in_name", hue="transportation")
 
-Exercise 11: Histogram
+Exercise 10: Histogram
 ----------------------
 
 Draw a histogram using the previously loaded data and libraries:
@@ -179,7 +134,7 @@ df[“chars_in_name”].hist(bins=10)
 If you have a local Python installation (with Anaconda), you can create
 a nicer plot with:
 
-::
+.. code:: python3
 
    sns.histplot(
        data=df,
@@ -190,18 +145,18 @@ a nicer plot with:
 Try out different numbers for ``bins`` and see how the result changes.
 Also try setting ``kde=True``.
 
-Exercise 12: Summary
+Exercise 11: Summary
 --------------------
 
 Examine the student table further, plotting or calculating metrics from
 other columns. Write a tweet-length news headline summarizing your
 findings and post it in the course channel.
 
-Exercise 13: Plausibility
+Exercise 12: Plausibility
 -------------------------
 
 Discuss with your neighbor whether the statements are *plausible*
-(i.e. they *could* be true):
+(i.e. they *could* be true):
 
 -  there are ICE trains with 10 wagons
 -  Deutsche Bahn has more than 300000 employees
@@ -214,8 +169,8 @@ Discuss with your neighbor whether the statements are *plausible*
 Challenge: Penguins
 -------------------
 
-Examine the penguin data in the spreadsheet ``penguins.xlsx``. Solve the
-following tasks to examine the **beak length** variable:
+Examine the penguin data in the spreadsheet :download:`penguins.xlsx`.
+Solve the following tasks to examine the **beak length** variable:
 
 -  calculate the mean beak length
 -  calculate the median beak length

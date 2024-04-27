@@ -1,18 +1,30 @@
 
-Frequencies and Pivots
-======================
+Session 2: Frequencies and Pivots
+=================================
 
 |image0|
 
 Exercise 1: Read data
 ---------------------
 
-Read the penguin data from the file ``penguins.csv``. 
+Read the penguin data from the file ``penguins.csv`` into a spreadsheet.
 
 Exercise 2: Group by a category
 -------------------------------
 
-Count the penguins by species using the ``COUNTIF`` function.
+Count the penguins by species using the ``COUNTIF`` function, e.g.:
+
+===== ========= ========== ==================================
+   id species   labels     count
+===== ========= ========== ==================================
+    1 Adelie    Adelie     =COUNTIF(B$2:B$333,C$2:C$4)
+    2 Adelie    Gentoo     ...
+    3 Adelie    Chinstrap  ...
+    4 Gentoo
+    5 Gentoo
+    6 ...
+===== ========= ========== ==================================
+  
 
 Exercise 3: Group means
 -----------------------
@@ -78,7 +90,7 @@ standard deviation into account. This is calld **standard scaling** or
 
 Use the equation:
 
-   zscore = (beaks - mean) / std_dev
+    zscore = (beaks - mean) / std_dev
 
 
 What do the numbers mean?
@@ -93,16 +105,6 @@ Write down 3-5 sentences describing the beaks of the penguins in the
 data. Use the mean, median and standard deviation and the knowledge
 gained from the above exercises.
 
---------------
-
-License
--------
-
-(c) 2023 Dr. Kristian Rother
-
-Available under the conditions of the Creative Commons Attribution
-Share-alike License 4.0 (CC-BY-SA 4.0). See creativecommons.org for
-details.
 
 .. |image0| image:: penguin_heads.png
 

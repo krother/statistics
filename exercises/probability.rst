@@ -4,8 +4,13 @@ Session 3: Probability
 Consider a population of penguins, with the following absolute
 frequencies:
 
-| sex female male species
-| Adelie 160 80 Chinstrap 20 80 Gentoo 80 80
+========= ====== =========
+sex       female male
+========= ====== =========
+Adelie    160    80
+Chinstrap  20    80
+Gentoo     80    80
+========= ====== =========
 
 Exercise 1: Probabilities
 -------------------------
