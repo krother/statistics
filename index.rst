@@ -25,8 +25,15 @@ Contents
    combinatorics.rst
    linear_regression.rst
    correlation.rst
-   data_report.rst
    links.rst
+
+Project Assignment
+------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   data_report.rst
 
 Exercises
 ---------

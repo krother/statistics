@@ -1,8 +1,8 @@
 
-Assignment: Exploratory Data Analysis
-=====================================
+Exploratory Data Analysis
+=========================
 
-The goal of this assignment is to characterize a dataset on 5-10 pages.
+The goal of this project is to characterize a dataset on 5-10 pages.
 You have explored the data and would like to share your initial findings.
 Assume your readers know nothing about the data yet
 
@@ -38,8 +38,6 @@ Abstract
 
 Summarize the goal and main outcome(s) in up to 150 words.
 
-----
-
 Introduction
 ------------
 
@@ -62,18 +60,20 @@ Example:
 
 ----
 
-Methods
--------
+Data and Methods
+----------------
 
 *(up to 10% of the text)*
 
-Describe where your data comes from.
-Describe the format and size of the data set.
-You **must** reference the source of the data here.
+* you **must** reference the source of the data here. Provide the full URL and/or doi.
+* what is the format of the data?
+* how many tables / rows / columns does the data consist of?
+* which columns exist in the data?
+* what do the columns contain (in a few words)
+* are there missing values?
+
 
 Briefly enumerate the tools you used (anything that goes beyond MS Office).
-
-----
 
 
 Results
@@ -98,14 +98,6 @@ Make sure it is recognizable as such, e.g.:
 
     One possible explanation is that a long beak
     helps the penguin catch fish.
-
-General
-+++++++
-
-* how many tables / rows / columns does the data consist of?
-* which columns exist in the data?
-* what do the columns contain (in a few words)
-* are there missing values?
 
 Characterize categorical columns
 ++++++++++++++++++++++++++++++++
@@ -141,10 +133,10 @@ Examine relationships between two or more columns using a few of:
 
 Here you can also apply advanced statistical tools (clustering, ANOVA, hypothesis tests, PCA, ML models). This is completely optional since they were not covered in the course.
 
-Answers to questions
+Answer the questions
 ++++++++++++++++++++
 
-Directly answer the initial questions, one per subsection:
+Directly answer the initial questions. Ideally answer one question per subsection:
 
 ::
 
@@ -152,8 +144,13 @@ Directly answer the initial questions, one per subsection:
     than those of Gentoo penguins
     and much longer than those of Adelie penguins.
 
+Discussion
+----------
 
-----
+You may include a brief discussion, where you compare your results to other existing work.
+You can interpret your results here, adding domain expertise.
+Also this is a good place to mention ideas for further work.
+
 
 Figures
 -------
@@ -174,8 +171,6 @@ Having a few well-prepared plots is better than many so-so ones.
 A part of the assignment is to decide which plots you want to share.
 Showing 20 plots instead of 5 does not make the report better.
 
-----
-
 Tables
 ------
 
@@ -189,14 +184,12 @@ Examples:
 Make sure the tables are not too large.
 In a short report you rather would not want to have tables that span 1 page or more.
 
-----
-
 Conclusions
 -----------
 
 *(5% of the text or less)*
 
-At the end of the report, wrap up everything.
+At the end of the report, summarize everything.
 Briefly answer each of the questions from the Introduction.
 E.g.:
 
@@ -209,8 +202,6 @@ This is also where you can place what you believe but cannot prove.
 
 The Conclusions may repeat things that are also written in the Abstract.
 
-----
-
 References
 ----------
 
@@ -221,29 +212,34 @@ When available, include the **DOI (digital object identifier)** in the citation.
 
 Use **scientific citation style**.
 
-----
 
-
-How to get an excellent grade?
-------------------------------
+Assessment Criteria
+-------------------
 
 Working through the points above systematically and carefully will give you a good grade.
-To get an excellent grade, you will need to deliver something out of the ordinary.
-Any of the following will qualify:
+Here are the exact criteria I will use for evaluation:
 
-* an infographic
-* an animation
-* a video
-* an online dashboard
-* a mathematically deep solution (advanced statistical methods, Machine Learning models etc.)
-* a technically deep solution (e.g. using a relational database or writing your own software package)
-* a calendar
-* a series of social media posts
-* **your own idea**
+* concise: 5-10 pages
+* focus on main questions
+* informative title
+* abstract (up to 150 words)
+* introduction
+* data and methods
+* objective: describes observations sticking close to the facts
+* characterize categorical columns
+* characterize numerical columns
+* relationships between columns are described
+* figures: ~5 plots (bar, line, histo, scatter, box, heatmap)
+* conclusions
+* references
+* other excellent material (an advanced statistical method, infographic, animation, online dashboard, video or similar; up to 2 points)
 
-See `the 2022 PyConDE talk by Paula Gonzales <https://www.youtube.com/watch?v=_XvD83yhe3E>`__ for some inspiration.
+
+.. seealso::
+
+   `the 2022 PyConDE talk by Paula Gonzales <https://www.youtube.com/watch?v=_XvD83yhe3E>`__ for some inspiration.
 
 
 .. hint::
 
-   You can use the same structure to develop a BSc or MSc thesis.
+   You can use a very similar structure to develop a BSc or MSc thesis.
