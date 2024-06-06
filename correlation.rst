@@ -45,3 +45,11 @@ When there is a confounding factor it makes correlation coefficients meaningless
 It is even possible that the correlation coefficient when the confounding categories are considered independently. This is called **Simpsons Paradox**.
 
 The problem is nasty because you cannot find out which is the confounding factor by looking at the numbers. Ultimately, you need *domain expertise* to interpret the data correctly.
+
+.. topic: Reflection Questions
+  
+   - How is the correlation coefficient defined?
+   - How to calculate a correlation coefficient in a spreadsheet?
+   - How to interpret a correlation coefficient?
+   - When are two variables independent?
+   - What is a confounding factor?
