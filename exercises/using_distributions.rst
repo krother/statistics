@@ -2,6 +2,10 @@
 Using Distributions
 ===================
 
+.. figure:: ice_cream_factory.png
+
+*ice cream factory. Created by dreamstudio.ai*
+
 Exercise 1: Maintenance
 -----------------------
 
