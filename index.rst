@@ -16,24 +16,17 @@ Contents
 .. toctree::
    :maxdepth: 1
 
-   variables.rst
-   centrality_and_dispersion.rst
-   frequency.rst
-   probability.rst
-   distributions.rst
-   expectation_values.rst
-   combinatorics.rst
-   linear_regression.rst
-   correlation.rst
-   links.rst
+   articles/variables.rst
+   articles/centrality_and_dispersion.rst
+   articles/frequency.rst
+   articles/probability.rst
+   articles/distributions.rst
+   articles/expectation_values.rst
+   articles/combinatorics.rst
+   articles/linear_regression.rst
+   articles/correlation.rst
+   articles/links.rst
 
-Project Assignment
-------------------
-
-.. toctree::
-   :maxdepth: 1
-
-   data_report.rst
 
 Exercises
 ---------
@@ -50,6 +43,15 @@ Exercises
    exercises/sampling.rst
    exercises/confidence.rst
    exercises/time_series.rst
+
+
+Project Assignment
+------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   data_report.rst
 
 
 .. topic:: License
