@@ -1,12 +1,17 @@
 
-Session 5: Using Distributions
-==============================
+Using Distributions
+===================
+
+.. figure:: ice_cream_factory.png
+
+*ice cream factory. Created by dreamstudio.ai*
 
 Exercise 1: Maintenance
 -----------------------
 
-Like any engineering product, the ice cream machines in the factory have to be maintained.
-Of the 10 machine, 2.2 stop working every month, and are brought back after a short break.
+The penguins are successfully running an ice cream factory.
+From time to time, the ice cream machines in the factory have to be maintained.
+Of the 10 machines, 2.2 stop working in an average month, and are brought back after a short break.
 
 What is the probability that a single machine will produce ice cream for an entire year without being maintained?
 
