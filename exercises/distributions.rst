@@ -1,5 +1,5 @@
-Session 4: Distributions
-========================
+Distributions
+=============
 
 Exercise 1: Dice Rolls
 ----------------------

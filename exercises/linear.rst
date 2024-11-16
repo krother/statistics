@@ -1,5 +1,5 @@
-Session 6: Linear Relationships
-===============================
+Linear Relationships
+====================
 
 Exercise 1: Causation
 ---------------------

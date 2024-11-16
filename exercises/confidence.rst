@@ -1,6 +1,6 @@
 
-Session 7: Confidence
-=====================
+Confidence
+==========
 
 Exercise 1: Sample
 ------------------

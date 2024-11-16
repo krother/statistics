@@ -1,30 +1,7 @@
-Session 1: Centrality and Dispersion
-====================================
+Centrality and Dispersion
+=========================
 
-Exercise 1: Data Portrait
--------------------------
-
-Take a piece of paper
-
--  draw as many squares as your name has characters
--  draw circles for the number of your siblings and yourself
--  color the n-th circle to indicate which of them is you (left-oldest,
-   right-youngest)
--  draw a symbol that indicates your country of birth
--  indicate your favourite mode of transportation: legs for walking, two
-   circles for biking, a box with wheels for cars/trains and wings for
-   flying
--  charge% of your mobile device as a battery with 0-5 bars
-
-Exercise 2: Spreadsheet
------------------------
-
-Add your data from the **data portrait** exercise to the
-`spreadsheet <https://docs.google.com/spreadsheets/d/1sE-yJysuijryAjPaPPxk6BtFd0CkC-fugiGLk3poP_A/edit?usp=sharing>`__.
-
-What types of variables are in the data?
-
-Exercise 3: What is statistics?
+Exercise 1: What is statistics?
 -------------------------------
 
 Discuss in a small group:
@@ -35,7 +12,7 @@ Discuss in a small group:
    picture or diagram) and post it in the channel
 
 
-Exerxise 4: Plotting
+Exerxise 2: Plotting
 --------------------
 
 Use your local Python installation or go to
@@ -49,17 +26,17 @@ Execute the following piece of Python code:
    import pandas as pd
    from matplotlib import pyplot as plt
 
-   df = pd.read_excel("students.xlsx")
+   df = pd.read_excel("penguins.xlsx")
    print(df.head())
 
-   count = df["transportation"].value_counts()
+   count = df["..."].value_counts()
    print(count)
 
    count.plot.bar()
 
 You should see a plot with several bars.
 
-Exercise 5: Centrality
+Exercise 3: Centrality
 ----------------------
 
 Now calculate the mean number of characters in our names.
@@ -74,7 +51,7 @@ The following Python code contains 3 bugs. Find and fix them.
    mean = df[chars_in_name].mean()
    print(f"average number of characters : {mean:4.2f}")
 
-Exercise 6: Median and Mode
+Exercise 4: Median and Mode
 ---------------------------
 
 Replace the ``mean()`` function by ``median()`` and ``mode()``. To print
@@ -82,7 +59,7 @@ the mode you need to leave away the ``:4.2f``.
 
 Examine the result.
 
-Exercise 7: Outliers
+Exercise 5: Outliers
 --------------------
 
 Modify one the first entry to a very high number:
@@ -95,7 +72,7 @@ Modify one the first entry to a very high number:
 Repeat the calculation of the mean and median. How do the metrics
 change?
 
-Exercise 8: Spread
+Exercise 6: Spread
 ------------------
 
 Use the functions ``std()``, ``min()``, ``max()`` and ``describe()`` to
@@ -103,7 +80,7 @@ examine the spread of the variable.
 
 Examine the effect of adding the outlier on these numbers as well.
 
-Exercise 9: Box Plot
+Exercise 7: Box Plot
 ---------------------
 
 Draw a box plot showing the distribution of characters for different
@@ -124,7 +101,7 @@ a nicer plot with:
    df = pd.read_excel("students.xlsx")
    sns.boxplot(data=df, y="chars_in_name", hue="transportation")
 
-Exercise 10: Histogram
+Exercise 8: Histogram
 ----------------------
 
 Draw a histogram using the previously loaded data and libraries:
@@ -145,24 +122,12 @@ a nicer plot with:
 Try out different numbers for ``bins`` and see how the result changes.
 Also try setting ``kde=True``.
 
-Exercise 11: Summary
+Exercise 9: Summary
 --------------------
 
 Examine the student table further, plotting or calculating metrics from
 other columns. Write a tweet-length news headline summarizing your
 findings and post it in the course channel.
-
-Exercise 12: Plausibility
--------------------------
-
-Discuss with your neighbor whether the statements are *plausible*
-(i.e. they *could* be true):
-
--  there are ICE trains with 10 wagons
--  Deutsche Bahn has more than 300000 employees
--  more than 5000 trains pass through Zoo station per day
--  the average delay of a train at Deutsche Bahn is 5 minutes
--  over the past 30 years, the train delay has doubled every year
 
 --------------
 

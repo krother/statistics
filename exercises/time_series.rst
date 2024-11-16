@@ -1,6 +1,6 @@
 
-Session 8. Time Series Data
-===========================
+Time Series Data
+================
 
 In this chapter, we will use a few statistical tools to describe **Time Series Data**.
 

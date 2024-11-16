@@ -1,13 +1,13 @@
 
-Session 2: Frequencies and Pivots
-=================================
+Frequencies and Pivots
+======================
 
 |image0|
 
 Exercise 1: Read data
 ---------------------
 
-Read the penguin data from the file ``penguins.csv`` into a spreadsheet.
+Read the penguin data from the file :download:`penguins.csv` into a spreadsheet.
 
 Exercise 2: Group by a category
 -------------------------------

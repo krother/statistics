@@ -1,9 +1,9 @@
 
-Exercise 1: Histogram of beak sizes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Histograms
+==========
 
-Read the penguin data from the file ``penguins.csv`` using Python. Use
-your local Python installation or go to
+Read the penguin data from the file :download:`penguins.csv` using Python.
+Use your local Python installation or go to
 `jupyter.org/try-jupyter/lab/ <https://jupyter.org/try-jupyter/lab/>`__
 and click the top-left symbol to start a notebook. Complete the
 following code:

@@ -1,5 +1,5 @@
-Session 3: Probability
-======================
+Probability
+===========
 
 Consider a population of penguins, with the following absolute
 frequencies:
