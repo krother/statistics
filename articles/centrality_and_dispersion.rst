@@ -124,4 +124,3 @@ In a **box plot**, it is the size of the box.
 .. math::
 
   IQR_x = x_{0.75} - x_{0.25}
-

@@ -25,7 +25,7 @@ Contents
    articles/combinatorics.rst
    articles/linear_regression.rst
    articles/correlation.rst
-   articles/links.rst
+   articles/hypothesis.rst
 
 
 Exercises
@@ -43,6 +43,8 @@ Exercises
    exercises/sampling.rst
    exercises/confidence.rst
    exercises/time_series.rst
+   exercises/histograms.rst
+   exercises/plausibility.rst
 
 
 Project Assignment
@@ -51,7 +53,9 @@ Project Assignment
 .. toctree::
    :maxdepth: 1
 
-   data_report.rst
+   articles/data_report.rst
+   articles/project_datasets.rst
+
 
 
 .. topic:: License

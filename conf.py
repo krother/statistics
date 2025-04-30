@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Statistics'
-copyright = '2023, Kristian Rother'
+copyright = '2025, Kristian Rother'
 author = 'Kristian Rother'
 release = '0.1'
 html_title = f"{project}"
@@ -19,7 +19,7 @@ extensions = [
     'sphinx_design',
     'sphinx_copybutton',
     'sphinx.ext.todo',
-    'myst_parser',
+    #'myst_parser',
     ]
 
 exclude_patterns = ['experimental', '_build', 'Thumbs.db', '.DS_Store']
