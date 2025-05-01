@@ -1,17 +1,18 @@
 Centrality and Dispersion
 =========================
 
-Exercise 1: What is statistics?
--------------------------------
+Exercise 1: Set up Python
+-------------------------
 
-Find an example of a statistical outcome
-(a number, a statement, a picture or diagram) and post it in the channel
+Make sure you have a Python installation that allows you to create and execute Jupyter Notebooks.
+You find instructions on `www.academis.eu/pandas_go_to_space/preparations/README.html <https://www.academis.eu/pandas_go_to_space/preparations/README.html>`__
 
 
-Exerxise 2: Plotting
+Exercise 2: Plotting
 --------------------
 
-Use your local Python installation and click the top-left symbol to start a notebook. 
+For the following exercises you will need a spreadsheet with student data that you created in class.
+
 Put the spreadsheet into the same folder as your Python notebook.
 Execute the following piece of Python code:
 
