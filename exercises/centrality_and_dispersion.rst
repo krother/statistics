@@ -4,20 +4,14 @@ Centrality and Dispersion
 Exercise 1: What is statistics?
 -------------------------------
 
-Discuss in a small group:
-
--  what is statistics?
--  why is it important?
--  find an example of a statistical outcome (a number, a statement, a
-   picture or diagram) and post it in the channel
+Find an example of a statistical outcome
+(a number, a statement, a picture or diagram) and post it in the channel
 
 
 Exerxise 2: Plotting
 --------------------
 
-Use your local Python installation or go to
-`jupyter.org/try-jupyter/lab/ <https://jupyter.org/try-jupyter/lab/>`__
-and click the top-left symbol to start a notebook. 
+Use your local Python installation and click the top-left symbol to start a notebook. 
 Put the spreadsheet into the same folder as your Python notebook.
 Execute the following piece of Python code:
 
@@ -26,15 +20,22 @@ Execute the following piece of Python code:
    import pandas as pd
    from matplotlib import pyplot as plt
 
-   df = pd.read_excel("penguins.xlsx")
-   print(df.head())
+   df = pd.read_excel("students.xlsx")
+   df.head()
+
+If that works, also insert a column name in the next piece of code:
+
+.. code:: python3
 
    count = df["..."].value_counts()
-   print(count)
+   count
+
+Finally, create a plot with several bars:
+
+.. code:: python3
 
    count.plot.bar()
 
-You should see a plot with several bars.
 
 Exercise 3: Centrality
 ----------------------
@@ -72,11 +73,11 @@ Modify one the first entry to a very high number:
 Repeat the calculation of the mean and median. How do the metrics
 change?
 
-Exercise 6: Spread
-------------------
+Exercise 6: Dispersion
+----------------------
 
 Use the functions ``std()``, ``min()``, ``max()`` and ``describe()`` to
-examine the spread of the variable.
+examine the dispersion of the variable.
 
 Examine the effect of adding the outlier on these numbers as well.
 
@@ -125,9 +126,8 @@ Also try setting ``kde=True``.
 Exercise 9: Summary
 --------------------
 
-Examine the student table further, plotting or calculating metrics from
-other columns. Write a tweet-length news headline summarizing your
-findings and post it in the course channel.
+Examine the student data further.
+Write a news headline summarizing your findings and post it in the course channel.
 
 --------------
 
