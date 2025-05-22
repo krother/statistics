@@ -2,9 +2,9 @@
 Using Distributions
 ===================
 
-.. figure:: ice_cream_factory.png
+.. figure:: renoir.jpeg
 
-*ice cream factory. Created by dreamstudio.ai*
+*penguin eating ice cream. Style by Renoir. Created with stablediffusionweb.com*
 
 Exercise 1: Maintenance
 -----------------------
@@ -14,10 +14,6 @@ From time to time, the ice cream machines in the factory have to be maintained.
 Of the 10 machines, 2.2 stop working in an average month, and are brought back after a short break.
 
 What is the probability that a single machine will produce ice cream for an entire year without being maintained?
-
-.. figure:: renoir.jpeg
-
-*penguin eating ice cream. Style by Renoir. Created with stablediffusionweb.com*
 
 
 Exercise 2: Body Mass
